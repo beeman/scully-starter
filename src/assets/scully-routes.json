@@ -1,0 +1,9 @@
+[
+  { "route": "/" },
+  { "route": "/home" },
+  { "route": "/logout" },
+  { "route": "/login" },
+  { "route": "/register" },
+  { "route": "/reset-password" },
+  { "route": "/token" }
+]

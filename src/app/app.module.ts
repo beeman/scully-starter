@@ -9,9 +9,10 @@ import { appRoutes } from './app.routes';
 import { AppComponent } from './app.component';
 import { AppLayoutComponent } from './app-layout.component';
 import { appLayout } from './app.config';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
-  imports: [BrowserModule, BrowserAnimationsModule, RouterModule.forRoot(appRoutes), UiModule],
+  imports: [BrowserModule, BrowserAnimationsModule, RouterModule.forRoot(appRoutes), UiModule, HttpClientModule],
   declarations: [AppComponent, AppLayoutComponent],
   bootstrap: [AppComponent],
 })

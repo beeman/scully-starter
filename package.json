@@ -7,6 +7,8 @@
     "prettier": "prettier --write \"**/*.{js,json,css,scss,less,md,ts,html,component.html}\"",
     "build": "ng build --prod",
     "postbuild": "cp -v dist/scully-starter/index.html dist/scully-starter/404.html",
+    "scully": "scully",
+    "scully:serve": "scully serve",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -24,6 +26,9 @@
     "@kikstart/ui": "1.9.3",
     "@ngx-formly/bootstrap": "5.5.7",
     "@ngx-formly/core": "5.5.7",
+    "@scullyio/init": "0.0.9",
+    "@scullyio/ng-lib": "0.0.7",
+    "@scullyio/scully": "0.0.46",
     "bootstrap": "4.4.1",
     "bootswatch": "4.4.1",
     "font-awesome": "4.7.0",

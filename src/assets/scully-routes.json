@@ -1,6 +1,12 @@
 [
   { "route": "/" },
   { "route": "/home" },
+  {
+    "route": "/blog/12-24-2019-blog",
+    "title": "This is the blog",
+    "description": "blog description",
+    "publish": false
+  },
   { "route": "/logout" },
   { "route": "/login" },
   { "route": "/register" },

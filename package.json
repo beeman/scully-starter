@@ -9,6 +9,10 @@
     "postbuild": "cp -v dist/scully-starter/index.html dist/scully-starter/404.html",
     "scully": "scully",
     "scully:serve": "scully serve",
+    "docker:build": "docker build . -t beeman/scully-starter:latest",
+    "docker:push": "docker push beeman/scully-starter:latest",
+    "docker:run": "docker run -p 5000:5000 -it beeman/scully-starter:latest",
+    "serve": "npx serve -s ./dist/static",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -36,6 +40,7 @@
     "ngx-timeago": "1.0.2",
     "ngx-toastr": "11.2.1",
     "rxjs": "6.5.3",
+    "serve": "^11.2.0",
     "tslib": "1.10.0",
     "zone.js": "0.10.2"
   },

@@ -5,7 +5,7 @@ WORKDIR /workspace
 
 COPY package.json yarn.lock /workspace/
 
-RUN yarn install --network-timeout 10000
+RUN yarn install
 
 COPY . /workspace/
 

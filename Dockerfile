@@ -1,4 +1,5 @@
-FROM node:12-alpine
+FROM beeman/scully-docker:latest
+ENV SCULLY_PUPPETEER_EXECUTABLE_PATH '/usr/bin/chromium-browser'
 
 WORKDIR /workspace
 
